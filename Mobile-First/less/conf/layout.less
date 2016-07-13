@@ -1,0 +1,18 @@
+@siteWidth: 1040px;
+
+html {
+  color: @greyish;
+  font-family: "Unna";
+}
+
+body {
+  font-size: 10px;
+}
+
+#main {
+  max-width: @siteWidth;
+
+  @media @large {
+    display: flex;
+  }
+}

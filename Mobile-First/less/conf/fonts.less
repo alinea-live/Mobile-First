@@ -1,0 +1,8 @@
+.fontFace (@fontname, @fontfile, @fontweight: normal, @fontstyle: normal) {
+  @font-face {
+    font-family: @fontname;
+    src: url('../fonts/@{fontfile}.otf') format('truetype'),
+  }
+}
+
+.fontFace('Unna', 'Unna-regular');
